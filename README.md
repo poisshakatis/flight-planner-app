@@ -6,6 +6,12 @@ Dockeri kaudu:
 docker-compose up --build
 ~~~
 
+NB! Enne käsu käivitamist tuleb **macOS**i või **Linux**i puhul anda lisaõigusi `gradlew` failile `backend` kaustas
+
+~~~bash
+chmod +x gradlew
+~~~
+
 ## Projekti kulgemine
 
 ### Esmane lahendus
