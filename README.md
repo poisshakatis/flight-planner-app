@@ -26,9 +26,9 @@ Istekohtade klassid 4h
 
 > Kuigi klasse kasutasin ainult ühes kohas koodis, tahtsin neid ikkagi enumitena hoida, kui magic stringina.
 
-### API-ga katsetamine
+### Lennuandmetega katsetamine
 
-> Siis arvasin, et olen projekti enam-vähem "ära teinud". Tunnistan, et oleksin pidanud veel läbi mõtlema, kuidas olemasolevat lahendust teha silmapaistvamaks. See-eest sain teada, millised API-d on üldse saadaval ja milliseid andmeid need annavad
+> Siis arvasin, et olen projekti enam-vähem "ära teinud". Tunnistan, et oleksin pidanud veel läbi mõtlema, kuidas olemasolevat lahendust teha silmapaistvamaks. See-eest sain teada, millised API-d lennuandmete jaoks on üldse saadaval ja milliseid andmeid need annavad
 
 Lennujaamade lendude otsing 4h
 
