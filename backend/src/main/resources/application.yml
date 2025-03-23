@@ -1,0 +1,1130 @@
+flights:
+  - number: AY1014
+    departure:
+      airport:
+        iata: TLL
+        name: Tallinn
+      time: 2025-03-23T08:00:00
+    arrival:
+      airport:
+        iata: HEL
+        name: Helsingi
+      time: 2025-03-23T09:00:00
+    price: 200
+    aircraft:
+      model: ATR 72
+
+  - number: AA100
+    departure:
+      airport:
+        iata: JFK
+        name: New York
+      time: 2025-03-28T08:00:00
+    arrival:
+      airport:
+        iata: LAX
+        name: Los Angeles
+      time: 2025-03-28T11:00:00
+    price: 350
+    seatClasses: [FIRST, MAIN_CABIN_EXTRA, MAIN_CABIN]
+    aircraft:
+      model: Airbus A321 (Sharklets)
+
+aircraft:
+  - seatMap: A321-200_V3
+    rows:
+      - row: 1
+        length: 5
+        seats:
+          - seat: A
+            seatClass: FIRST
+            position: 1
+
+          - seat: C
+            seatClass: FIRST
+            position: 2
+
+          - seat: D
+            seatClass: FIRST
+            position: 4
+
+          - seat: F
+            seatClass: FIRST
+            position: 5
+
+      - row: 2
+        length: 5
+        seats:
+          - seat: A
+            seatClass: FIRST
+            position: 1
+
+          - seat: C
+            seatClass: FIRST
+            position: 2
+
+          - seat: D
+            seatClass: FIRST
+            position: 4
+
+          - seat: F
+            seatClass: FIRST
+            position: 5
+
+      - row: 3
+        length: 5
+        seats:
+          - seat: A
+            seatClass: FIRST
+            position: 1
+
+          - seat: C
+            seatClass: FIRST
+            position: 2
+
+          - seat: D
+            seatClass: FIRST
+            position: 4
+
+          - seat: F
+            seatClass: FIRST
+            position: 5
+
+      - row: 4
+        length: 5
+        seats:
+          - seat: A
+            seatClass: FIRST
+            position: 1
+
+          - seat: C
+            seatClass: FIRST
+            position: 2
+
+          - seat: D
+            seatClass: FIRST
+            position: 4
+
+          - seat: F
+            seatClass: FIRST
+            position: 5
+
+      - row: 8
+        extraLegroom: true
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN_EXTRA
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN_EXTRA
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN_EXTRA
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN_EXTRA
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN_EXTRA
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN_EXTRA
+            position: 7
+
+      - row: 9
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN_EXTRA
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN_EXTRA
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN_EXTRA
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN_EXTRA
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN_EXTRA
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN_EXTRA
+            position: 7
+
+      - row: 10
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN_EXTRA
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN_EXTRA
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN_EXTRA
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN_EXTRA
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN_EXTRA
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN_EXTRA
+            position: 7
+
+      - row: 11
+        extraLegroom: true
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN_EXTRA
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN_EXTRA
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN_EXTRA
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN_EXTRA
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN_EXTRA
+            position: 6
+
+      - row: 12
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN_EXTRA
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN_EXTRA
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN_EXTRA
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN_EXTRA
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN_EXTRA
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN_EXTRA
+            extraLegroom: true
+            position: 7
+
+      - row: 13
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN_EXTRA
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN_EXTRA
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN_EXTRA
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 14
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 15
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 16
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 17
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 18
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 19
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 20
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 21
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 22
+        length: 7
+        seats:
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 23
+        length: 7
+        seats:
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 24
+        extraLegroom: true
+        length: 7
+        seats:
+          - seat: B
+            seatClass: MAIN_CABIN_EXTRA
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN_EXTRA
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN_EXTRA
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN_EXTRA
+            position: 6
+
+      - row: 25
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN_EXTRA
+            extraLegroom: true
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN_EXTRA
+            extraLegroom: true
+            position: 7
+
+      - row: 26
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 27
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 28
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 29
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 30
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 31
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 32
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 33
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 34
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 35
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+      - row: 36
+        length: 7
+        seats:
+          - seat: A
+            seatClass: MAIN_CABIN
+            position: 1
+
+          - seat: B
+            seatClass: MAIN_CABIN
+            position: 2
+
+          - seat: C
+            seatClass: MAIN_CABIN
+            position: 3
+
+          - seat: D
+            seatClass: MAIN_CABIN
+            position: 5
+
+          - seat: E
+            seatClass: MAIN_CABIN
+            position: 6
+
+          - seat: F
+            seatClass: MAIN_CABIN
+            position: 7
+
+  - seatMap: ATR-72-500_V2
+    rows:
+      - row: 1
+        length: 5
+        extraLegroom: true
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 2
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 3
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 4
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 5
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 6
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 7
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 8
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 9
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 10
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 11
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 12
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 13
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 14
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 15
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 16
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 17
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
+
+          - seat: C
+            position: 4
+
+          - seat: D
+            position: 5
+
+      - row: 18
+        length: 5
+        seats:
+          - seat: A
+            position: 1
+
+          - seat: B
+            position: 2
