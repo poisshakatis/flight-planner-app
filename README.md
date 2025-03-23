@@ -1,18 +1,9 @@
 ## Kuidas käivitada
 
-1. Intellij IDEA (lihtsam)
-2. Manuaalselt
+Dockeri kaudu:
 
-Projekti kaustas:
-
-Windows
 ~~~bash
-gradlew bootRun
-~~~
-
-Linux/Mac
-~~~bash
-./gradlew bootRun
+docker-compose up --build
 ~~~
 
 ## Projekti kulgemine
@@ -82,3 +73,7 @@ Frontendi normaalsemaks tegemine 1.5h
 Istekohtade klasside filter ja rakenduse käivitamise dokumentatsioon 1.5h
 
 > Kuna oli veel aega, ja kuna istmete klassid olid andmetes juba olemas, lisasin nendele filtri juurde
+
+Dockeri konteinerisse paigutamine 3.5h
+
+> Dockerfile'id olid AI genereeritud, mida käsitsi mudisin
